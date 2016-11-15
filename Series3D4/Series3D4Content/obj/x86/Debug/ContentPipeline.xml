@@ -1,0 +1,182 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline" xmlns:Framework="Microsoft.Xna.Framework" xmlns:Processors="Microsoft.Xna.Framework.Content.Pipeline.Processors">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Series4Effects.fx</Source>
+      <Name>Series4Effects</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\Series4Effects.xnb</Output>
+      <Time>2013-03-25T23:31:55.5518487+02:00</Time>
+    </Item>
+    <Item>
+      <Source>heightmap.bmp</Source>
+      <Name>heightmap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\heightmap.xnb</Output>
+      <Time>2013-02-04T01:46:05.1933113+02:00</Time>
+    </Item>
+    <Item>
+      <Source>grass.dds</Source>
+      <Name>grass</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\grass.xnb</Output>
+      <Time>2013-02-16T17:08:28.0482102+02:00</Time>
+    </Item>
+    <Item>
+      <Source>rock.dds</Source>
+      <Name>rock</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\rock.xnb</Output>
+      <Time>2013-03-04T20:05:38.5540223+02:00</Time>
+    </Item>
+    <Item>
+      <Source>sand.dds</Source>
+      <Name>sand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\sand.xnb</Output>
+      <Time>2013-03-04T20:05:38.5750235+02:00</Time>
+    </Item>
+    <Item>
+      <Source>snow.dds</Source>
+      <Name>snow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\snow.xnb</Output>
+      <Time>2013-03-04T20:05:38.5810238+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cloudMap.jpg</Source>
+      <Name>cloudMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\cloudMap.xnb</Output>
+      <Time>2013-03-08T22:22:34.9849059+02:00</Time>
+    </Item>
+    <Item>
+      <Source>dome.x</Source>
+      <Name>dome</Name>
+      <Importer>XImporter</Importer>
+      <Processor>ModelProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\dome.xnb</Output>
+      <Time>2013-03-08T22:22:34.9889061+02:00</Time>
+      <Dependency>
+        <Key>obj\x86\Debug\dome_0.xml</Key>
+        <Value>2013-03-08T22:31:36.852899+02:00</Value>
+      </Dependency>
+      <Request>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\cloudMap_0.xnb</Request>
+    </Item>
+    <Item>
+      <Source>dome.x</Source>
+      <Importer>XImporter</Importer>
+      <Options>IntermediateFile, DontCacheImportedData</Options>
+      <Output>obj\x86\Debug\dome_0.xml</Output>
+      <Time>2013-03-08T22:22:34.9889061+02:00</Time>
+    </Item>
+    <Item>
+      <Source>cloudMap.jpg</Source>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Parameters>
+        <Data Key="ColorKeyColor" Type="Framework:Color">FFFF00FF</Data>
+        <Data Key="ColorKeyEnabled" Type="bool">true</Data>
+        <Data Key="TextureFormat" Type="Processors:TextureProcessorOutputFormat">DxtCompressed</Data>
+        <Data Key="GenerateMipmaps" Type="bool">true</Data>
+        <Data Key="ResizeToPowerOfTwo" Type="bool">false</Data>
+        <Data Key="PremultiplyAlpha" Type="bool">true</Data>
+      </Parameters>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\cloudMap_0.xnb</Output>
+      <Time>2013-03-08T22:22:34.9849059+02:00</Time>
+    </Item>
+    <Item>
+      <Source>waterbump.dds</Source>
+      <Name>waterbump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\waterbump.xnb</Output>
+      <Time>2013-03-21T22:21:10.9599186+02:00</Time>
+    </Item>
+    <Item>
+      <Source>bbEffect.fx</Source>
+      <Name>bbEffect</Name>
+      <Importer>EffectImporter</Importer>
+      <Processor>EffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\bbEffect.xnb</Output>
+      <Time>2013-03-25T20:47:53.7609305+02:00</Time>
+    </Item>
+    <Item>
+      <Source>tree.dds</Source>
+      <Name>tree</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\tree.xnb</Output>
+      <Time>2013-03-23T19:08:11.1314444+02:00</Time>
+    </Item>
+    <Item>
+      <Source>treeMap.jpg</Source>
+      <Name>treeMap</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\treeMap.xnb</Output>
+      <Time>2013-03-23T21:27:09.5843706+02:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4Content\</RootDirectory>
+      <LoggerRootDirectory>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\</LoggerRootDirectory>
+      <IntermediateDirectory>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4Content\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>D:\Documents\Edit\Documents\Works\Visual Studio\C#\XNA Game Studio 4.0\Series3D4\Series3D4\Series3D4\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T13:41:18+03:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2012-01-12T17:39:12.9711474+02:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>
